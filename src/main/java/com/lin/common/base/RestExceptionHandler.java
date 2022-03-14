@@ -1,4 +1,4 @@
-package com.linh.common.base;
+package com.lin.common.base;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

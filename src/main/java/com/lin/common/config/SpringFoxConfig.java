@@ -1,4 +1,4 @@
-package com.linh.common.config;
+package com.lin.common.config;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.linh.common.base;
+package com.lin.common.base;
 
 import java.time.LocalDateTime;
 
