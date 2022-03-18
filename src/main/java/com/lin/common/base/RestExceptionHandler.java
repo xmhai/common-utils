@@ -15,7 +15,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 //    response code is 500, and the error message should not be sent to front end, instead only display system error
 //For system error, e.g. database operation failure
 //    response code is 500, and the error message should not be sent to front end, instead only display system error
-@ControllerAdvice("com.linh")
+@ControllerAdvice("com.lin")
 public class RestExceptionHandler extends ResponseEntityExceptionHandler {
 	Logger logger = LoggerFactory.getLogger(RestExceptionHandler.class);
 	
