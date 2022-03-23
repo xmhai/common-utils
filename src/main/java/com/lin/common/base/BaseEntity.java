@@ -32,18 +32,14 @@ public class BaseEntity implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	@JsonIgnore
 	@Column(nullable = false, updatable = false)
 	private Long createdBy;
 
-	@JsonIgnore
 	@Column(nullable = false, updatable = false)
 	private LocalDateTime createdDate = LocalDateTime.now();
 
-	@JsonIgnore
 	private Long updatedBy;
 
-	@JsonIgnore
 	private LocalDateTime updatedDate;
 
 	@JsonIgnore
